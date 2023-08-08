@@ -1,0 +1,25 @@
+#HTML
+- Hyper Text MarkUp Language
+- Basic Building Block
+- Skeleton/Description of a web page
+- Case insensitive (HTMl, html)
+
+**Tags **
+- It tells the browser how to render different elements.
+- Eg. <p> : paragraph, <h1> : heading, <img> : image, <a> : link
+
+**Hyper Text Element**
+1. Block Element : <p> , <h1>, <section>, <ul>/<ol>
+2. Inline Element : <em>, <strong> , <a> [To differentiate a part of text]
+
+**Document for help**
+- https://developer.mozilla.org/en-US/docs/Web/HTML
+
+**Empty Tag --> Self-joining Tag **
+- Eg. <br/> , <img/> , <input/>
+
+**Tags**
+- Image Tag: alt attribute specifies an alternate text for an image, if the image cannot be displayed
+- Anchor Tag: defines a hyperlink, which is used to link from one page to another
+- Meta Tag: defines meta data about HTML doc, used to specify charset, description of page, keywords, viewport, author
+- Meta data not displayed to user
