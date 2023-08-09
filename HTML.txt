@@ -23,3 +23,5 @@
 - Anchor Tag: defines a hyperlink, which is used to link from one page to another
 - Meta Tag: defines meta data about HTML doc, used to specify charset, description of page, keywords, viewport, author
 - Meta data not displayed to user
+- If we have to open link in a new tab, use target ="_black" in anchor tag after href attribute
+- Poet Problem : pre tag

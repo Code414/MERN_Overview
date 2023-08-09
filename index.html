@@ -11,9 +11,23 @@
         #Muskan{
             color: red;
         }
+
+        .one{
+            float:left;
+            width:50%;
+        }
+        .two{
+            float:left;
+            width:50%;
+        }
+        table,th,td,tr{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
     </style>
 </head>
 <body>               <!-- contains all data rendered by the browser -->
+    <div class="one">
     <!-- Header -->
     <h1> Heading 1 </h1>
     <h2> Heading 2 </h2>
@@ -61,6 +75,89 @@
 
     <!-- Anchor Tag: defines a hyperlink, which is used to link from one page to another -->
     <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Doc Link</a>
+
+    <!-- If we have to open link in a new tab-->
+    <p>If we have to open link in a new tab, use <b>target ="_black"</b> in anchor tag</p>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target ="_black">MDN Doc Link for anchor tag</a>
     
+
+
+    <!-- Horizontal Line -->
+    <p>Below is horizontal line using hr tag:</p>
+    <hr>
+
+
+    <!-- Poet Problem -->
+    <p> Pre tag for poet problem</p>
+    <pre>
+        Twinkle Twinkle
+        Little Star
+        How I wonder
+        What you are!
+    </pre>
+
+    <br>
+    <b>This is bold using b tag</b>
+    <br>
+    <i>This is italic using i tag</i>
+    <br>
+    <mark>Word can be marked using mark tag</mark>
+    <br>
+    <del>This is del tag</del>
+    <br>
+    <small> This is small tag</small>
+
+
+    <br>
+    <p>Subscript: x<sub>1</sub>+y<sub>1</sub>=z<sub>1</sub></p>
+    <br>
+    <p>Superscript: x<sup>2</sup>+y<sup>2</sup>=z<sup>2</sup></p>
+    </div>
+
+    <div class="two">
+        <!-- Table -->
+        <table class="t1">
+            <thead>
+                <tr>
+                    <th>Table Head</th>
+                    <th>thead, th</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Table Row</td>
+                <td>tr</td>
+            </tr>
+            <tr>
+                <td>Table Column/Data</td>
+                <td>td</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td>Table Footer</td>
+                    <td>tfoot</td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+        <!-- Form -->
+        <form action="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">
+            <h3>Welcome guys!</h3>
+            <table>
+                <tr>
+                    <td><label for="username">Username: </label></td>
+                    <td><input type="text" name="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password: </label></td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+            </table>
+            <button>Submit</button>
+            <br>
+            <!-- <input type="Submit" value="Submit"> --> <!--Same as above submit-->
+        </form>
+
+    </div>
 </body>
 </html>
