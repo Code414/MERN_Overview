@@ -24,6 +24,9 @@
             border: 1px solid black;
             border-collapse: collapse;
         }
+        html{
+            scroll-behavior: smooth;
+        }
     </style>
 </head>
 <body>               <!-- contains all data rendered by the browser -->
@@ -77,8 +80,8 @@
     <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Doc Link</a>
 
     <!-- If we have to open link in a new tab-->
-    <p>If we have to open link in a new tab, use <b>target ="_black"</b> in anchor tag</p>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target ="_black">MDN Doc Link for anchor tag</a>
+    <p>If we have to open link in a new tab, use <b>target ="_blank"</b> in anchor tag</p>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target ="_blank">MDN Doc Link for anchor tag</a>
     
 
 
@@ -88,7 +91,7 @@
 
 
     <!-- Poet Problem -->
-    <p> Pre tag for poet problem</p>
+    <p id="bookmark"> Pre tag for poet problem</p>
     <pre>
         Twinkle Twinkle
         Little Star
@@ -157,6 +160,20 @@
             <br>
             <!-- <input type="Submit" value="Submit"> --> <!--Same as above submit-->
         </form>
+
+
+        <!-- Hyperlinks -->
+        <p>Hyperlinks</p>
+        <a href="ww.facebook.com">Click here</a>
+        <br>
+        <a href="tel:+91 8907654528">Call</a><br>
+        <a href="mailto:xyz@gmail.com">Mail</a>
+        <br>
+
+        <h4>Bookmark</h4>
+        <!-- For CSS, check line no. 27 to 29 -->
+        <p>If we click on below link, it will go to destination which I want, for smooth scrolling, use css:</p>
+        <a href="#bookmark"> Go to poet problem</a> 
 
     </div>
 </body>

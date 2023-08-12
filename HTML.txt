@@ -25,3 +25,16 @@
 - Meta data not displayed to user
 - If we have to open link in a new tab, use target ="_black" in anchor tag after href attribute
 - Poet Problem : pre tag
+
+**Table**
+- rowspan, colspan -> increase/expand cell to mentioned row/column
+- colgroup -> If we want to style specific column (background colour, visibility)
+
+
+** div is block and span is inline element (In CSS, diplay property: block:different line/inline:same line).
+
+
+**Semantic Tags"
+- which tells about the content what it is
+- eg. table, form, article, figure, caption, header, footer, main, nav
+- Non - Semantic tags: div, span
